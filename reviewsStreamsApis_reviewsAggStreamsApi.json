@@ -1,0 +1,24 @@
+{
+    "$id": "reviewsStreamsApis_reviewsAggStreamsApi",
+    "$schema": "https://schema.yext.com/config/streams/streams-api/v1",
+    "name": "Streams API - Reviews Aggregate Data",
+    "stream": {
+      "source": "reviewsAgg",
+      "fields": [
+        "reviewCount",
+        "averageRating",
+        "publisher",
+        "entity.id"
+      ],
+      "filter": {
+        "publishers": [
+          "firstparty", "externalFirstParty"
+        ]
+      }
+    },
+    "fieldIndexes": [
+      {
+        "field": "entity.id"
+      }
+    ]
+  }
