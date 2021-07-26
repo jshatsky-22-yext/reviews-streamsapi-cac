@@ -1,7 +1,7 @@
 {
     "$id": "reviewsStreamsApis_reviewsStreamsApi",
     "$schema": "https://schema.yext.com/config/streams/streams-api/v1",
-    "name": "Streams API - Individual Reviews",
+    "name": "Streams Endpoint - Individual Reviews",
     "stream": {
       "source": "reviews",
       "fields": [

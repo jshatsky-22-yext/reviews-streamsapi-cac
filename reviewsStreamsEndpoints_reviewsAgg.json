@@ -1,7 +1,7 @@
 {
     "$id": "reviewsStreamsApis_reviewsAggStreamsApi",
     "$schema": "https://schema.yext.com/config/streams/streams-api/v1",
-    "name": "Streams API - Reviews Aggregate Data",
+    "name": "Streams Endpoint - Reviews Aggregate Data",
     "stream": {
       "source": "reviewsAgg",
       "fields": [
