@@ -1,5 +1,5 @@
 {
-    "$id": "reviewsStreamsApis_reviewsAggStreamsApi",
+    "$id": "reviewsStreamsEndpoints_reviewsAgg",
     "$schema": "https://schema.yext.com/config/streams/streams-endpoint/v1",
     "name": "Streams Endpoint - Reviews Aggregate Data",
     "stream": {
